@@ -55,5 +55,21 @@ body{
 	from{right:100px;}
 	to{right:200px;}
 }
+.child3{
+	background-image: url("../images/modzme.svg");
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	background-repeat: no-repeat;
+	top: 600px;
+	left: 0px;
+	animation: modzme 13s infinite;
+}
+@keyframes modzme{
+	from{top:700px;}
+	to{top:500px;}
+	from{left:0px;}
+	to{left:700px;}
+}
 
  
