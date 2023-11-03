@@ -10,16 +10,14 @@ body{
 	height: 200px;
 	background-image: url("../images/mx.svg");
 	position: absolute;
-	top: 1100px;
+	top: 600px;
 	right: 1100px;
 	background-repeat: no-repeat;
-	animation: mymove 20s infinite;
+	animation: mymove 13s infinite;
 }
-@keyframes mymove {
-   from {top: 1100px;}
-   to{top:1000px;}
-   to{top: 900px}
-   to{top: 800px;}
+@keyframes mymove{
+   from {top: 600px;}
+   to{top: 500px;}
    from {right: 1100px;}
    to {right: 200px;}
   to {right: 10px;}
@@ -31,15 +29,31 @@ body{
 	height: 200px;
 	position: absolute;
 	background-repeat: no-repeat;
-	top: 700px;
-	left: 200px;
-	animation: eaglemove 20s infinite;
+	top: 100px;
+	left: 400px;
+	animation: eaglemove 13s infinite;
 }
-@keyframes eaglemove {
-	from{top:700px;}
-	to{top: 800px}
+@keyframes eaglemove{
+	from{top:100px;}
+	to{top: 400px}
 	from{left:200px;}
-	to{left:900px;}
+	to{left:1000px;}
+}
+.child2{
+	background-image: url("../images/full_moon.svg");
+	width: 70px;
+	height: 70px;
+	position: absolute;
+	background-repeat: no-repeat;
+	top: 100px;
+	right: 100px;
+	animation: moon 20s infinite;
+}
+@keyframes moon{
+	from{top: 100px}
+	to{top:100px}
+	from{right:100px;}
+	to{right:200px;}
 }
 
  
